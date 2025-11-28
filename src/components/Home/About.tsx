@@ -10,34 +10,51 @@ const About = () => {
                         src="/images/about.jpg"
                         alt="Uzman Elektrik Hakkımızda"
                         fill
-                        sizes="(max-width: 768px) 100vw, 50vw"
+                        sizes="(max-width: 992px) 100vw, 50vw"
                         style={{ objectFit: 'cover' }}
                     />
                 </div>
                 <div className={styles.content}>
-                    <h2>Hakkımızda</h2>
+                    <span className={styles.subTitle}>KURUMSAL</span>
+                    <h2>Güvenilir ve Profesyonel Elektrik Çözümleri</h2>
                     <p>
-                        Uzman Elektrik olarak, yılların verdiği tecrübe ve uzman kadromuzla İstanbul genelinde
-                        profesyonel elektrik hizmetleri sunmaktayız. Müşteri memnuniyetini her zaman ön planda
-                        tutarak, güvenilir ve kaliteli çözümler üretiyoruz.
+                        Uzman Elektrik olarak, sektördeki deneyimimiz ve sertifikalı uzman kadromuzla,
+                        elektrik arıza, bakım ve montaj ihtiyaçlarınıza en hızlı ve en güvenilir çözümleri sunuyoruz.
                     </p>
                     <p>
-                        Elektrik arızalarından tesisat yenilemeye, avize montajından uydu sistemlerine kadar
-                        geniş bir yelpazede hizmet veriyoruz. 7/24 acil servisimizle her an yanınızdayız.
+                        Teknolojiyi yakından takip eden ekibimiz, modern ekipmanlarla donatılmış araçlarımızla
+                        7/24 hizmetinizdedir. Müşteri memnuniyeti odaklı çalışma prensibimizle, işimizi
+                        garantili ve titizlikle yapıyoruz.
                     </p>
 
                     <div className={styles.features}>
                         <div className={styles.feature}>
-                            <span>✓</span> 7/24 Acil Servis
+                            <div className={styles.featureIcon}>⚡</div>
+                            <div className={styles.featureText}>
+                                <h4>7/24 Acil Servis</h4>
+                                <p>Günün her saati kesintisiz hizmet.</p>
+                            </div>
                         </div>
                         <div className={styles.feature}>
-                            <span>✓</span> Uzman Kadro
+                            <div className={styles.featureIcon}>👨‍🔧</div>
+                            <div className={styles.featureText}>
+                                <h4>Uzman Kadro</h4>
+                                <p>Sertifikalı ve deneyimli teknisyenler.</p>
+                            </div>
                         </div>
                         <div className={styles.feature}>
-                            <span>✓</span> Garantili İşçilik
+                            <div className={styles.featureIcon}>🛡️</div>
+                            <div className={styles.featureText}>
+                                <h4>Garantili İşçilik</h4>
+                                <p>Yapılan tüm işlemler garanti kapsamındadır.</p>
+                            </div>
                         </div>
                         <div className={styles.feature}>
-                            <span>✓</span> Uygun Fiyat
+                            <div className={styles.featureIcon}>💰</div>
+                            <div className={styles.featureText}>
+                                <h4>Uygun Fiyat</h4>
+                                <p>Kaliteli hizmet, ekonomik çözümler.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

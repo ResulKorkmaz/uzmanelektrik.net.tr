@@ -35,7 +35,7 @@ const Footer = () => {
                     </div>
                     <div className={styles.contactItem}>
                         <span>📍</span>
-                        <span>İstanbul, Türkiye</span>
+                        <span>30 dakikada Elektrikçi kapınızda</span>
                     </div>
                 </div>
             </div>
