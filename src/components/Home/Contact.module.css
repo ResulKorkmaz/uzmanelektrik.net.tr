@@ -1,0 +1,59 @@
+.contact {
+    background-color: var(--light-bg);
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contactBox {
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    max-width: 600px;
+    width: 100%;
+}
+
+.contactBox h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.contactBox p {
+    margin-bottom: 30px;
+    color: var(--light-text);
+}
+
+.phone {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    display: block;
+    margin-bottom: 20px;
+    transition: var(--transition);
+}
+
+.phone:hover {
+    color: #e68900;
+    transform: scale(1.05);
+}
+
+.info {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+}
+
+.infoItem {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
